@@ -1,9 +1,13 @@
 <script setup>
 import axios from 'axios';
 import { reactive, onMounted } from 'vue';
-import { useRoute, RouterLink } from 'vue-router';
+import { useRoute, RouterLink, useRouter } from 'vue-router';
+import Button from '../components/Button.vue';
+import { useToast } from 'vue-toastification';
 
 const route = useRoute();
+const router = useRouter();
+const toast = useToast();
 const jobID = route.params.id;
 
 const state = reactive({
@@ -12,9 +16,25 @@ const state = reactive({
     error: null
 })
 
+const deleteJob = async () => {
+    try {
+        const confirmDelete = window.confirm('Are you sure you want to delete this job?')
+        if (confirm) {
+            await axios.delete(`/api/jobs/${jobID}`);
+            toast.success(`${state.job.title} has been successfully deleted!`)
+            router.push('/jobs')
+        }
+
+    } catch (error) {
+        const msg = 'There have been an error occured during deletion of this particular job';
+        console.error(msg, error)
+        toast.error(msg)
+    }
+}
+
 onMounted(async () => {
     try {
-        const response = await axios.get(`http://localhost:8000/jobs/${jobID}`)
+        const response = await axios.get(`/api/jobs/${jobID}`)
         state.job = response.data;
 
     } catch (error) {
@@ -70,14 +90,20 @@ onMounted(async () => {
                         <p class="opacity-70">{{ state.job.company.description }}</p>
                     </div>
 
-                    <h2 class="mb-3">
-                        <span><i class="pi pi-envelope mr-2"></i></span>
-                        <a :href="`mailto:${state.job.company.contactEmail}`">{{
-                            state.job.company.contactEmail }}</a>
-                    </h2>
-                    <h2 class=""><span><i class="pi pi-mobile mr-2"></i></span><a
-                            :href="`tel:${state.job.company.contactPhone}`">{{ state.job.company.contactPhone }}</a>
-                    </h2>
+                    <div class="contact-wrapper mb-4">
+                        <h2 class="mb-3">
+                            <span><i class="pi pi-envelope mr-2"></i></span>
+                            <a :href="`mailto:${state.job.company.contactEmail}`">{{
+                                state.job.company.contactEmail }}</a>
+                        </h2>
+                        <h2 class=""><span><i class="pi pi-mobile mr-2"></i></span><a
+                                :href="`tel:${state.job.company.contactPhone}`">{{ state.job.company.contactPhone }}</a>
+                        </h2>
+                    </div>
+                    <div class="manage-job-wrapper flex gap-4">
+                        <RouterLink class="btn" :to="{ name: 'EditJob' }">Edit this job post</RouterLink>
+                        <Button :btn-class="`btn-warning`" @click="deleteJob">Delete this job post</Button>
+                    </div>
                 </aside>
             </div>
             <div v-else>No job details available</div>

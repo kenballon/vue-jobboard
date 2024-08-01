@@ -15,7 +15,7 @@ const router = createRouter({
     },
 
     {
-      path: '/jobs/:id',
+      path: '/job/:id',
       name: 'jobPostDetail',
       component: JobDetailed,
       props: true
@@ -30,6 +30,17 @@ const router = createRouter({
       path: '/:catchAll(.*)',
       name: 'notFound',
       component: NotFound
+    },
+    {
+      path: '/addjobs',
+      name: 'addjob',
+      component: () => import('../views/AddJobView.vue')
+    },
+    {
+      path: '/jobs/edit/:id',
+      name: 'EditJob',
+      component: () => import('../views/EditJob.vue'),
+      props: true
     }
 
   ],
