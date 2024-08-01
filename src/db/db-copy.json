@@ -1,0 +1,221 @@
+[
+    {
+        "id": 1,
+        "title": "Junior Web Developer",
+        "description": "Develop and implement marketing strategies to promote our products and services. Create compelling content for various digital platforms, analyze market trends, and track campaign performance. Collaborate with cross-functional teams to ensure brand consistency. Manage social media accounts and engage with our online community. Must have excellent communication skills, creativity, and proficiency in marketing analytics tools. Experience in SEO and SEM is a plus. Join our dynamic team and help drive our brand's growth in the digital landscape.",
+        "employmentType": "Full-Time",
+        "location": "Remote",
+        "salary": "$65 - 90K",
+        "requirements": [
+            "Bachelor's degree in Computer Science or related field",
+            "2+ years of experience in web development",
+            "Proficiency in HTML, CSS, and JavaScript",
+            "Experience with front-end frameworks such as React or Angular"
+        ],
+        "company": {
+            "name": "ABC Corporation",
+            "industry": "Technology",
+            "description": "A leading innovator in the tech industry, ABC Corporation is dedicated to creating cutting-edge solutions that transform the way people live and work.",
+            "contactEmail": "ap@zadri.tz",
+            "contactPhone": "(123) - 456 - 7891"        
+        }
+    },
+    {
+        "id": 2,
+        "title": "Senior Data Scientist",
+        "description": "Design, develop, and maintain software applications for our cutting-edge technology company. Write clean, efficient code and participate in code reviews. Troubleshoot, debug, and upgrade existing systems. Collaborate with cross-functional teams to define and develop new features. Stay updated with emerging technologies and industry trends. Proficiency in multiple programming languages required, with a focus on Java and Python. Experience with Agile methodologies and cloud platforms preferred. Join us in creating innovative solutions that shape the future.",
+        "employmentType": "Full-Time",
+        "location": "New York, NY",
+        "salary": "$120 - 160K",
+        "requirements": [
+            "Ph.D. in Statistics, Computer Science, or related field",
+            "5+ years of experience in data science",
+            "Expertise in machine learning algorithms",
+            "Proficiency in Python, R, and SQL",
+            "Experience with big data technologies like Hadoop and Spark"
+        ],
+        "company": {
+            "name": "DataTech Solutions",
+            "industry": "Data Analytics",
+            "description": "DataTech Solutions is at the forefront of big data analytics, providing insights that drive business growth and innovation.",
+            "contactEmail": "careers@datatechsolutions.com",
+            "contactPhone": "(456) - 789 - 0123"        
+        }
+    },
+    {
+        "id": 3,
+        "title": "UX/UI Designer",
+        "description": "Provide exceptional customer service through various channels including phone, email, and chat. Address customer inquiries, resolve complaints, and process orders efficiently. Maintain accurate records of customer interactions and transactions. Identify and escalate complex issues to appropriate departments. Contribute to improving customer satisfaction and loyalty. Must have excellent communication skills, patience, and the ability to multitask. Knowledge of CRM systems and previous customer service experience preferred. Join our team and make a difference in our customers' experiences.",
+        "employmentType": "Contract",
+        "location": "San Francisco, CA",
+        "salary": "$90 - 120K",
+        "requirements": [
+            "Bachelor's degree in Design, HCI, or related field",
+            "3+ years of experience in UX/UI design",
+            "Proficiency in design tools such as Sketch, Figma, and Adobe Creative Suite",
+            "Strong portfolio demonstrating user-centered design process",
+            "Experience with user research and usability testing"
+        ],
+        "company": {
+            "name": "InnoDesign Co.",
+            "industry": "Design",
+            "description": "InnoDesign Co. is a creative agency specializing in user-centered design for digital products and services.",
+            "contactEmail": "hello@innodesign.co",
+            "contactPhone": "(789) - 012 - 3456"        
+        }
+    },
+    {
+        "id": 4,
+        "title": "DevOps Engineer",
+        "description": "Analyze financial data, prepare reports, and develop financial models to support business decision-making. Assist in budgeting, forecasting, and financial planning processes. Collaborate with various departments to gather and interpret financial information. Ensure compliance with financial regulations and accounting principles. Identify cost-saving opportunities and efficiency improvements. Strong analytical skills and proficiency in Excel required. Knowledge of ERP systems and financial analysis tools preferred. CPA or progress toward certification is a plus. Help drive our company's financial success.",
+        "employmentType": "Full-Time",
+        "location": "Seattle, WA",
+        "salary": "$100 - 140K",
+        "requirements": [
+            "Bachelor's degree in Computer Science or related field",
+            "4+ years of experience in DevOps",
+            "Proficiency in cloud platforms (AWS, Azure, or GCP)",
+            "Experience with containerization and orchestration (Docker, Kubernetes)",
+            "Strong scripting skills (Python, Bash, PowerShell)"
+        ],
+        "company": {
+            "name": "CloudOps Systems",
+            "industry": "Cloud Computing",
+            "description": "CloudOps Systems specializes in cloud infrastructure management and optimization for enterprises.",
+            "contactEmail": "jobs@cloudopssystems.com",
+            "contactPhone": "(234) - 567 - 8901"        
+        }
+    },
+    {
+        "id": 5,
+        "title": "Marketing Manager",
+        "description": "Plan, coordinate, and oversee construction projects from inception to completion. Develop project schedules, budgets, and resource allocation plans. Ensure compliance with safety regulations and quality standards. Collaborate with architects, engineers, and subcontractors to resolve technical issues. Manage client relationships and communicate project progress. Strong leadership and problem-solving skills required. Proficiency in project management software and knowledge of construction methodologies essential. Join our team and shape the skylines of tomorrow.",
+        "employmentType": "Full-Time",
+        "location": "Chicago, IL",
+        "salary": "$80 - 110K",
+        "requirements": [
+            "Bachelor's degree in Marketing, Business, or related field",
+            "5+ years of experience in digital marketing",
+            "Proficiency in marketing analytics tools",
+            "Experience with content marketing and social media management",
+            "Strong project management and team leadership skills"
+        ],
+        "company": {
+            "name": "BrandBoost Inc.",
+            "industry": "Marketing",
+            "description": "BrandBoost Inc. is a full-service marketing agency helping businesses grow their online presence and customer base.",
+            "contactEmail": "careers@brandboost.com",
+            "contactPhone": "(345) - 678 - 9012"        
+        }
+    },
+    {
+        "id": 6,
+        "title": "Financial Analyst",
+        "description": "Create visually appealing and user-friendly designs for websites, mobile apps, and digital products. Develop wireframes, prototypes, and high-fidelity mockups. Collaborate with UX researchers and developers to implement designs. Stay updated with design trends and best practices. Conduct user testing and iterate designs based on feedback. Proficiency in design software such as Adobe Creative Suite and Figma required. Knowledge of HTML, CSS, and responsive design principles preferred. Join our creative team and bring digital experiences to life.",
+        "employmentType": "Full-Time",
+        "location": "Boston, MA",
+        "salary": "$75 - 95K",
+        "requirements": [
+            "Bachelor's degree in Finance, Accounting, or related field",
+            "3+ years of experience in financial analysis",
+            "Proficiency in Excel and financial modeling",
+            "Knowledge of accounting principles and financial statements",
+            "Experience with financial software (e.g., SAP, Oracle)"
+        ],
+        "company": {
+            "name": "FinWise Solutions",
+            "industry": "Financial Services",
+            "description": "FinWise Solutions provides expert financial advisory and analysis services to businesses of all sizes.",
+            "contactEmail": "hr@finwisesolutions.com",
+            "contactPhone": "(456) - 789 - 0123"        
+        }
+    },
+    {
+        "id": 7,
+        "title": "Product Manager",
+        "description": "Develop and implement data-driven strategies to attract, engage, and retain top talent. Manage full-cycle recruitment processes, including sourcing, screening, and interviewing candidates. Collaborate with hiring managers to understand staffing needs and create job descriptions. Organize and participate in job fairs and networking events. Maintain applicant tracking systems and recruitment metrics. Strong interpersonal skills and ability to build relationships required. Knowledge of labor laws and HR best practices preferred. Help shape our organization's future through strategic talent acquisition.",
+        "employmentType": "Full-Time",
+        "location": "Austin, TX",
+        "salary": "$110 - 150K",
+        "requirements": [
+            "Bachelor's degree in Business, Engineering, or related field",
+            "5+ years of experience in product management",
+            "Strong understanding of product development lifecycle",
+            "Excellent communication and stakeholder management skills",
+            "Experience with Agile methodologies"
+        ],
+        "company": {
+            "name": "InnovateTech",
+            "industry": "Technology",
+            "description": "InnovateTech is a fast-growing startup developing cutting-edge software solutions for various industries.",
+            "contactEmail": "jobs@innovatetech.com",
+            "contactPhone": "(567) - 890 - 1234"        
+        }
+    },
+    {
+        "id": 8,
+        "title": "Sales Representative",
+        "description": "Conduct scientific research to develop new pharmaceutical products or improve existing ones. Design and execute experiments, analyze data, and interpret results. Collaborate with multidisciplinary teams to advance drug discovery projects. Stay current with scientific literature and emerging technologies in the field. Prepare technical reports and present findings to stakeholders. PhD in a relevant scientific field required. Experience with drug discovery processes and knowledge of GLP/GMP regulations preferred. Join us in creating life-changing medicines.",
+        "employmentType": "Full-Time",
+        "location": "Miami, FL",
+        "salary": "$60 - 80K + Commission",
+        "requirements": [
+            "Bachelor's degree in Business, Marketing, or related field",
+            "2+ years of experience in B2B sales",
+            "Strong communication and negotiation skills",
+            "Proficiency in CRM software (e.g., Salesforce)",
+            "Ability to meet and exceed sales targets"
+        ],
+        "company": {
+            "name": "SalesPro Solutions",
+            "industry": "Sales",
+            "description": "SalesPro Solutions offers innovative sales training and consulting services to boost business performance.",
+            "contactEmail": "careers@salesprosolutions.com",
+            "contactPhone": "(678) - 901 - 2345"        
+        }
+    },
+    {
+        "id": 9,
+        "title": "Cybersecurity Analyst",
+        "description": "Analyze large datasets to extract meaningful insights and support data-driven decision-making. Develop and maintain data pipelines, databases, and data visualization tools. Collaborate with various departments to understand business needs and provide data solutions. Implement machine learning models to predict trends and patterns. Ensure data quality, security, and compliance with regulations. Proficiency in programming languages such as Python or R and experience with big data technologies required. Join our team and help transform data into actionable insights.",
+        "employmentType": "Full-Time",
+        "location": "Washington, D.C.",
+        "salary": "$95 - 130K",
+        "requirements": [
+            "Bachelor's degree in Computer Science, Information Security, or related field",
+            "4+ years of experience in cybersecurity",
+            "Relevant certifications (e.g., CISSP, CEH, CompTIA Security+)",
+            "Experience with security information and event management (SIEM) tools",
+            "Knowledge of compliance frameworks (e.g., NIST, ISO 27001)"
+        ],
+        "company": {
+            "name": "SecureNet Defenders",
+            "industry": "Cybersecurity",
+            "description": "SecureNet Defenders provides comprehensive cybersecurity solutions to protect businesses from evolving digital threats.",
+            "contactEmail": "hr@securenetdefenders.com",
+            "contactPhone": "(789) - 012 - 3456"        
+        }
+    },
+    {
+        "id": 10,
+        "title": "Human Resources Manager",
+        "description": "Create engaging and informative content for various digital platforms, including blogs, social media, and newsletters. Develop content strategies aligned with marketing goals and target audience preferences. Collaborate with designers and SEO specialists to optimize content performance. Edit and proofread content to ensure high quality and consistency. Stay updated with industry trends and best practices in content creation. Excellent writing skills and creativity required. Experience with content management systems and SEO principles preferred. Help tell our brand's story and connect with our audience through compelling content.",
+        "employmentType": "Full-Time",
+        "location": "Denver, CO",
+        "salary": "$85 - 115K",
+        "requirements": [
+            "Bachelor's degree in Human Resources, Business Administration, or related field",
+            "5+ years of experience in HR management",
+            "Knowledge of labor laws and HR best practices",
+            "Strong interpersonal and conflict resolution skills",
+            "Experience with HRIS software"
+        ],
+        "company": {
+            "name": "PeopleFirst Corp",
+            "industry": "Human Resources",
+            "description": "PeopleFirst Corp is a leading HR consulting firm helping organizations build and maintain high-performing teams.",
+            "contactEmail": "careers@peoplefirstcorp.com",
+            "contactPhone": "(890) - 123 - 4567"        
+        }
+    }
+]
