@@ -31,64 +31,7 @@ npm run build
 ==========================================
 TEST ONLY
 ==========================================
-
-## Setup Instructions
-
-Follow these steps to set up the project on your local machine:
-
-### Prerequisites
-
-Ensure you have the following installed on your system:
-
-- Node.js (version 14 or higher recommended)
-- Yarn (version 1.x or higher)
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-
-### Dependencies
-
-- Flatpickr v4.6.13
-- Webpack v5.98.0
-
-### Installation
-
-1. Download the zip and extract the zipped file to your local machine:
-
-2. Install the project dependencies using yarn:
-   ```sh
-   yarn install
-   ```
-
-### Building the Project
-
-The project uses webpack to bundle the JavaScript and CSS files. To build the project:
-
-1. Run the following command:
-   ```sh
-   yarn build
-   ```
-2. The bundled files will be output to the dist/ directory.
-
-### Running the Project
-
-1. Open the index.html file in your browser to view the application. You can also use the Visual Studio Code Live Server Extension to run it.
-
-### Implementation Notes
-
-1. Replaced bootstrap-datetimepicker with Flatpickr v4.6.13:
-   - Maintains locale-based date formatting
-   - Preserves UTC date submission in Y-m-d H:i:s format
-   - Improved accessibility and mobile support
-2. Build System Updates:
-
-   - Added webpack for modern bundling
-   - Configured babel for better browser compatibility
-   - Added CSS and style loaders for proper styling integration
-
-3. Modified Files:
-   - js/form/calendar.js: Main datepicker implementation
-   - system.js: Updated module loading
-   - webpack.config.js: Build configuration
-   - package.json: Updated dependencies
+=================================
 
 # UI Project
 
@@ -109,12 +52,7 @@ A modern web application built with vanilla JavaScript and webpack.
 
 ## Installation
 
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-cd claritum-ui-interview
-```
+1. Download the zip and extract the zipped file to your local machine:
 
 2. Install dependencies:
 
